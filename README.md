@@ -18,8 +18,6 @@ The following lists some files of this project and its role.
 ## Dev
 
 ```
-git clone 
-
 npm install
 
 npm run dev

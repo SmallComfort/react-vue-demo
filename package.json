@@ -1,6 +1,6 @@
 {
   "name": "react-vue-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-vue demo",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "vuex": "^2.3.1",
-    "react-vue": "^0.0.1",
-    "react-vue-helper": "^0.0.1"
+    "react-vue": "^0.0.2",
+    "react-vue-helper": "^0.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -32,6 +32,6 @@
     "react-hot-loader": "^1.3.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5",
-    "react-vue-loader": "^0.0.1"
+    "react-vue-loader": "^0.0.2"
   }
 }

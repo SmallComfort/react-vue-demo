@@ -17,8 +17,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "vuex": "^2.3.1",
-    "react-vue": "^0.0.2",
-    "react-vue-helper": "^0.0.2"
+    "react-vue": "^0.0.3",
+    "react-vue-helper": "^0.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -28,6 +28,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.0.0",
+    "eslint-plugin-html": "^3.0.0",
     "eslint-plugin-react": "^7.0.1",
     "react-hot-loader": "^1.3.1",
     "react-vue-loader": "^0.0.3",

@@ -18,7 +18,7 @@
     "react-dom": "^15.5.4",
     "vuex": "^2.3.1",
     "react-vue": "^0.0.3",
-    "react-vue-helper": "^0.0.3"
+    "react-vue-helper": "^0.0.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

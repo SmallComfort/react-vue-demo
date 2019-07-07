@@ -4,7 +4,14 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     build: './src/index.js',
-    vendor: ['react', 'react-dom', 'react-vue']
+    vendor: [
+      'react',
+      'react-dom',
+      'react-vue',
+      'react-vue-helper',
+      'vuex',
+      'prop-types'
+    ]
   },
 
   output: {
@@ -13,16 +20,12 @@ module.exports = {
     publicPath: '/dist/'
   },
 
-  devServer: {
-    hot: true
-  },
-
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['react-hot-loader', 'babel-loader']
+        loaders: ['babel-loader']
       },
       {
         test: /\.vue$/,
@@ -41,7 +44,6 @@ module.exports = {
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor'
-    }),
-    new webpack.HotModuleReplacementPlugin()
+    })
   ]
-}
+};

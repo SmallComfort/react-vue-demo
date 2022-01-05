@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= htmlWebpackPlugin.tags.headTags.filter((tag) => tag.tagName !== 'script').join('\n') %>
+    <script src="./vendor.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <%= htmlWebpackPlugin.tags.bodyTags.filter((tag) => tag.tagName !== 'script').join('\n') %>
+  <script src="./build.js"></script>
+</body>
+</html>
